@@ -1,19 +1,28 @@
+:root{
+    --color1:#912b8b;
+    --color2:#ad0d9a;
+    --color3:#d47edc;
+    --color4:#e2aad6;
+    --font1: 'Streetscript';
+    --font2: 'Crewniverse', sans-serif;
+    --font3: "Poppins", sans-serif;
+}
 
 @media (max-width: 1195px) {
     #linkLogo{
-        margin-right: 20%;
+        margin-right: 35%;
     }
 }
 
 @media (max-width: 1045px) {
     #linkLogo{
-        margin-right: 15%;
+        margin-right: 25%;
     }
 }
 
 @media (max-width: 945px) {
     #linkLogo{
-        margin-right: 5%;
+        margin-right: 15%;
     }
 }
 
@@ -22,20 +31,24 @@
         position: relative;
         width: 100%;
         border: none;
+        position: relative;
     }
     #linkLogo{
-        margin-right: 18%;
+        margin-right: 60%;
+    }
+    #linkLogo img{
+        width: 100px;
     }
     header nav{
         display: none;
         position: absolute;
         width: 100%;
-        top: 80px;
+        top: 110px;
     }
     header nav ul{
         display: flex;
         flex-direction: column;
-        border-bottom: 1px solid var(--Cor_Font3);
+        border-bottom: 1px solid var(--color4);
         width: 100%;
         padding: 0px;
         margin-bottom: 0px;
@@ -44,7 +57,7 @@
         text-align: end;
         padding: 20px 0px 20px 0px;
         width: 100%;
-        border-top: 1px solid var(--Cor_Font4);
+        border-top: 1px solid var(--color4);
     }
     header nav ul li a{
         padding: 21px 20px 21px 20px;
@@ -52,6 +65,7 @@
     }
     header label{
         display: block;
+        color: var(--color3);
     }
 
     input[type = checkbox]:checked ~ nav{
