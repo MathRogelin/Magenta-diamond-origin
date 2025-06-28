@@ -4,10 +4,66 @@
     --color3:#d47edc;
     --color4:#e2aad6;
     --font1: 'Streetscript';
+    --font2: 'Crewniverse', sans-serif;
+    --font3: "Poppins", sans-serif;
 }
 body{
     margin: 0px;
     padding: 0px;
-    font-family: var(--font1);
+    font-family: var(--font3);
     font-weight: bold;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Cor_Font3);
+    border-bottom: 1px solid var(--Cor_Font3);
+    position: sticky;
+    width: 100%;
+}
+#linkLogo{
+    display: flex;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+    font-size: 15px;
+    color: var(--Cor_Font);
+    margin-right: 25%;
+    height: 100%;
+}
+#linkLogo:hover{
+    color: var(--Cor_Font4);
+    transition: 0.3s;
+}
+#linkLogo img{
+    width: 50px;
+    margin: 0px 15px 0px 0px;
+    border-radius: 100px;
+}
+header a{
+    font-size: 15px;
+    color: var(--Cor_Font);
+    text-decoration: none;
+}
+header label, input{
+    font-size: 20px;
+    color: var(--Cor_Font);
+    display: none;
+}
+header nav{
+    background-color: var(--Cor_Font3);
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+header nav ul li a{
+    color: var(--Cor_Font);
+    margin-right: 30px;
+}
+header nav ul li a:hover{
+    transition: 0.3s;
+    color: var(--Cor_Font4);
 }
