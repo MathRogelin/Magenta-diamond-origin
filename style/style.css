@@ -12,8 +12,8 @@ body{
     padding: 0px;
     font-family: var(--font2);
     font-weight: bold;
-    overflow: hidden;
     background-size: cover;
+    background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
     transition: background-image 1s ease-in-out;
@@ -72,4 +72,33 @@ header nav ul li a{
 header nav ul li a:hover{
     transition: 0.3s;
     color: var(--color3);
+}
+
+.hero{
+    height: 60vh;
+    border: 1px solid red;
+}
+.apresentation_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.apt_text h1{
+    font-family: var(--font1);
+    font-size: 60px;
+    color: var(--color4);
+    margin-bottom: 0px;
+    text-shadow: 5px 5px 1px var(--color1);
+}
+.apt_text p{
+    color: var(--color1);
+    text-shadow: 2px 2px 1px var(--color4);
+}
+.apresentation_image{
+    text-align: center;
+    border: 1px solid blue;
+}
+.apresentation_image img{
+    width: 50%;
 }
