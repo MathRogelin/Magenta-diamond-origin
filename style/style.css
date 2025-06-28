@@ -1,0 +1,13 @@
+:root{
+    --color1:#912b8b;
+    --color2:#ad0d9a;
+    --color3:#d47edc;
+    --color4:#e2aad6;
+    --font1: 'Streetscript';
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font1);
+    font-weight: bold;
+}
