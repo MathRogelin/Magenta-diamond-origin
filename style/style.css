@@ -10,37 +10,42 @@
 body{
     margin: 0px;
     padding: 0px;
-    font-family: var(--font3);
+    font-family: var(--font2);
     font-weight: bold;
     overflow: hidden;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    transition: background-image 1s ease-in-out;
 }
 header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--color1);
     border-bottom: 1px solid var(--Cor_Font3);
     position: sticky;
     width: 100%;
 }
 #linkLogo{
     display: flex;
+    justify-content: center;
     align-items: center;
-    padding: 20px 0px 20px 0px;
-    margin-right: 50%;
+    padding: 0px 0px 0px 0px;
+    margin-right: 40%;
     height: 100%;
     width: 10%;
 }
 #linkLogo:hover{
-    color: var(--color3);
+    color: var(--color1);
     transition: 0.3s;
 }
 #linkLogo img{
-    width: 100%;
+    padding: 10px;
+    width: 90%;
     /* margin: 0px 15px 0px 0px; */
 }
 header a{
-    font-size: 15px;
+    font-size: 13px;
     color: var(--color3);
     text-decoration: none;
 }
@@ -50,6 +55,8 @@ header label, input{
     display: none;
 }
 header nav{
+    border-radius: 30px;
+    box-shadow: 10px 10px 1px var(--color3);
     background-color: var(--color1);
 }
 header nav ul{
@@ -64,5 +71,5 @@ header nav ul li a{
 }
 header nav ul li a:hover{
     transition: 0.3s;
-    color: var(--color2);
+    color: var(--color3);
 }
