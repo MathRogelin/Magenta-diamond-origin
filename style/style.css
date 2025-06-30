@@ -76,7 +76,6 @@ header nav ul li a:hover{
 
 .hero{
     height: 60vh;
-    border: 1px solid red;
 }
 .apresentation_title{
     display: flex;
@@ -86,7 +85,7 @@ header nav ul li a:hover{
 }
 .apt_text h1{
     font-family: var(--font1);
-    font-size: 60px;
+    font-size: 100px;
     color: var(--color4);
     margin-bottom: 0px;
     text-shadow: 5px 5px 1px var(--color1);
@@ -94,11 +93,4 @@ header nav ul li a:hover{
 .apt_text p{
     color: var(--color1);
     text-shadow: 2px 2px 1px var(--color4);
-}
-.apresentation_image{
-    text-align: center;
-    border: 1px solid blue;
-}
-.apresentation_image img{
-    width: 50%;
 }
