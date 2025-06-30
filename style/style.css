@@ -98,7 +98,6 @@ header nav ul li a:hover{
   padding: 20px 40px;
 
   background: linear-gradient(to bottom, var(--color1), var(--color3));
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
