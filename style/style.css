@@ -3,6 +3,7 @@
     --color2:#ad0d9a;
     --color3:#d47edc;
     --color4:#e2aad6;
+    --color5:#e4bfdc;
     --font1: 'Streetscript';
     --font2: 'Crewniverse', sans-serif;
     --font3: "Poppins", sans-serif;
@@ -83,13 +84,54 @@ header nav ul li a:hover{
     justify-content: center;
     height: 100%;
 }
-.apt_text h1{
-    font-family: var(--font1);
-    font-size: 100px;
-    color: var(--color4);
-    margin-bottom: 0px;
-    text-shadow: 5px 5px 1px var(--color1);
+.apt_text{
+    display: inline-block;
 }
+.apt_text h1 {
+  position: relative;
+  display: inline-block;
+
+  font-family: var(--font1);
+  font-size: 100px;
+  color: transparent;
+  margin-bottom: 0;
+  padding: 20px 40px;
+
+  background: linear-gradient(to bottom, var(--color1), var(--color3));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  text-shadow: 2px 2px 4px rgba(240, 157, 255, 0.514);
+  overflow: hidden;
+}
+
+.apt_text h1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.556) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: skewX(-20deg);
+  animation: shine 6s infinite;
+}
+
+@keyframes shine {
+  0% {
+    left: -75%;
+  }
+  100% {
+    left: 125%;
+  }
+}
+
 .apt_text p{
     color: var(--color1);
     text-shadow: 2px 2px 1px var(--color4);
