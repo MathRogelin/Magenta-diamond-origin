@@ -12,6 +12,9 @@
     #linkLogo{
         margin-right: 35%;
     }
+    .apt_text{
+        width: 100%;
+    }
 }
 
 @media (max-width: 1045px) {
@@ -68,7 +71,7 @@
     }
     header label{
         display: block;
-        color: var(--color3);
+        color: var(--color1);
     }
 
     input[type = checkbox]:checked ~ nav{
