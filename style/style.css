@@ -84,7 +84,7 @@ header nav ul li a:hover{
 }
 
 .hero{
-    height: 80vh;
+    height: 85vh;
 }
 .apresentation_title{
     display: flex;
@@ -168,5 +168,5 @@ header nav ul li a:hover{
 .apresentation_about{
     display: flex;
     height: 100vh;
-    background-color: #912b8b;
+    background-color: var(--color2);
 }
