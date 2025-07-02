@@ -168,5 +168,6 @@ header nav ul li a:hover{
 .apresentation_about{
     display: flex;
     height: 100vh;
+    border-radius: 0% 0% 0px 0px;
     background-color: var(--color2);
 }
