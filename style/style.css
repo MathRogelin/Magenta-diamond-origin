@@ -203,10 +203,9 @@ header nav ul li a:hover{
     width: 90%;
     height: 90%;
     border-radius: 20px;
-    box-shadow: 15px 15px var(--color3);
 }
 .apresentation_about_text div h2,p{
-    padding: 10px;
+    padding: 15px;
     padding-bottom: 0px;
     padding-top: 0px;
     color: var(--color2);
