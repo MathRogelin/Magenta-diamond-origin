@@ -167,7 +167,52 @@ header nav ul li a:hover{
 
 .apresentation_about{
     display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100vh;
     border-radius: 0% 0% 0px 0px;
     background-color: var(--color2);
+    background-image: url(../assets/images/magenta\ coracao.png);
+    background-size: 10%;
+}
+.apresentation_about_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90%;
+    width: 90%;
+}
+.apresentation_about_img{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.apresentation_about_img img{
+    filter:drop-shadow(8px 8px var(--color5));
+    width: 300px;
+}
+.apresentation_about_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.apresentation_about_text div{
+    background-color: var(--color5);
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+    box-shadow: 15px 15px var(--color3);
+}
+.apresentation_about_text div h2,p{
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    color: var(--color2);
+    text-shadow: 2px 2px var(--color3);
+    font-family: var(--font3);
+}
+.apresentation_about_text div h2,a{
+    color: var(--color4);
 }
