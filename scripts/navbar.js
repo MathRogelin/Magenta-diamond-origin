@@ -23,7 +23,7 @@ function ancoras(){
         // evento de click fecha a nav
         link.addEventListener("click", (e)=>{
             // evitar recarregar a página
-            e.preventDefault()
+            // e.preventDefault()
             navbar.checked = false
             navbar.dispatchEvent( new Event("change"))
         })
