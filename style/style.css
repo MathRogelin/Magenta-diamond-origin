@@ -217,5 +217,48 @@ header nav ul li a:hover{
 }
 .apresentation_stories{
     height: 100vh;
-    background: linear-gradient(var(--color2),var(--color4));
+    width: 100%;
+    background: linear-gradient(var(--color2), #000);
+}
+.frame_stories{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    width: 100%;
+}
+.frame{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--color5);
+    border-radius: 20px;
+    height: 90%;
+    width: 90%;
+    overflow: hidden;
+}
+.poster{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 90%;
+    width: 30%;
+    margin: 0px 10px 0px 10px;
+    border-radius: 20px;
+    background-position: center;
+    background-image: url(../assets/images/bg1.png);
+    border: 1px solid var(--color5);
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+.poster p{
+    font-family: var(--font2);
+    background-color: var(--color5);
+    padding: 10px;
+    border-radius: 20px;
+}
+.poster:hover{
+    transition: 0.9s;
+    width: 90%;
 }
