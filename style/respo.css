@@ -79,6 +79,7 @@
     }
     .apresentation_about{
         height: auto;
+        background-size: 20%;
     }
     .apresentation_about_container{
         display: flex;
