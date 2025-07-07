@@ -146,6 +146,7 @@ header nav ul li a:hover{
 .apt_text p{
     color: var(--color1);
     text-shadow: 0px 4px var(--color4);
+    font-family: var(--font2);
     padding-bottom: 40px;
     font-size: 18px;
 }
@@ -172,7 +173,7 @@ header nav ul li a:hover{
     border-radius: 0% 0% 0px 0px;
     background-color: var(--color2);
     background-image: url(../assets/images/magenta\ coracao.png);
-    background-size: 10%;
+    background-size: 12%;
 }
 .apresentation_about_container{
     display: grid;
@@ -213,4 +214,8 @@ header nav ul li a:hover{
 }
 .apresentation_about_text div h2,a{
     color: var(--color4);
+}
+.apresentation_stories{
+    height: 100vh;
+    background: linear-gradient(var(--color2),var(--color4));
 }
