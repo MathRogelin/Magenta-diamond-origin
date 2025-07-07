@@ -88,4 +88,8 @@
     .apresentation_about_img img{
         margin-top: 20px;
     }
+    
+    .frame{
+        flex-direction: column;
+    }
 }
