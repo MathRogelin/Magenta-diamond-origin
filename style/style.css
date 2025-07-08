@@ -241,7 +241,7 @@ header nav ul li a:hover{
 .poster{
     display: flex;
     align-items: end;
-    justify-content: center;
+    justify-content: start;
     height: 90%;
     width: 30%;
     margin: 0px 10px 0px 10px;
@@ -252,10 +252,26 @@ header nav ul li a:hover{
     transition: all 0.3s ease;
     overflow: hidden;
 }
+#s1A, #s1B, #s2A{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+#s1A{
+    background-image: url(../assets/images/Season\ 1A\ Poster.png);
+}
+#s1B{
+    background-image: url(../assets/images/Season\ 1B\ Cover.png);
+}
+#s2A{
+    background-image: url(../assets/images/Season\ 2A.png);
+}
 .poster p{
     font-family: var(--font2);
     background-color: var(--color5);
     padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
     border-radius: 20px;
 }
 .poster:hover{
