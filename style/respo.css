@@ -95,6 +95,11 @@
     }
     
     .frame{
-        flex-direction: column;
+        flex-wrap: wrap;
+        overflow: auto;
+    }
+    .poster{
+        margin: 10px;
+        width: 100%;
     }
 }

@@ -219,6 +219,12 @@ header nav ul li a:hover{
     height: 100vh;
     width: 100%;
     background: linear-gradient(var(--color2), #000);
+    text-align: center;
+}
+.apresentation_stories h2{
+    margin: 0px;
+    padding-top: 30px;
+    color: var(--color5);
 }
 .frame_stories{
     display: flex;
@@ -262,8 +268,6 @@ header nav ul li a:hover{
 }
 #s1A:hover{
     background-image: url(../assets/videos/Magenta\ Diamonds\ Origin\ Recap.gif);
-    background-size: contain;
-    background-position: center;
 }
 #s1B{
     background-image: url(../assets/images/Season\ 1B\ Cover.png);
