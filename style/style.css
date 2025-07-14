@@ -1,0 +1,288 @@
+:root{
+    --color1:#912b8b;
+    --color2:#ad0d9a;
+    --color3:#d47edc;
+    --color4:#e2aad6;
+    --color5:#e4bfdc;
+    --font1: 'Streetscript';
+    --font2: 'Crewniverse', sans-serif;
+    --font3: "Poppins", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font2);
+    font-weight: bold;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    transition: background-image 1s ease-in-out;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid var(--Cor_Font3);
+    position: sticky;
+    width: 100%;
+}
+#linkLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+    margin-right: 40%;
+    height: 100%;
+    width: 10%;
+}
+#linkLogo:hover{
+    color: var(--color1);
+    transition: 0.3s;
+}
+#linkLogo img{
+    padding: 10px;
+    width: 90%;
+    /* margin: 0px 15px 0px 0px; */
+}
+header a{
+    font-size: 13px;
+    color: var(--color3);
+    text-decoration: none;
+}
+header label, input{
+    font-size: 20px;
+    color: var(--color4);
+    text-shadow: 0px 0px 5px var(--color5);
+    display: none;
+}
+header input{
+    font-size: 0px;
+}
+header nav{
+    border-radius: 30px;
+    box-shadow: 10px 10px 1px var(--color3);
+    background-color: var(--color1);
+    z-index: 1000;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+header nav ul li a{
+    color: var(--color4);
+    margin-right: 30px;
+}
+header nav ul li a:hover{
+    transition: 0.3s;
+    color: var(--color3);
+}
+
+.hero{
+    height: 85vh;
+}
+.apresentation_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.apt_text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.apt_text h1 {
+  position: relative;
+  display: inline-block;
+
+  font-family: var(--font1);
+  font-size: 80px;
+  color: transparent;
+  margin-bottom: 0;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  background: linear-gradient(180deg, var(--color2) 0%,var(--color4) 150%, var(--color1) 0% , var(--color2) 0%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* backdrop-filter: blur(5px); */
+
+  text-shadow: 2px 2px 4px rgba(240, 157, 255, 0.514);
+  overflow: hidden;
+}
+
+/* .apt_text h1::before {
+  content: '';
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.344) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: skewX(-20deg);
+  animation: shine 15s infinite;
+}
+
+@keyframes shine {
+  0% {
+    left: -75%;
+  }
+  100% {
+    left: 125%;
+  }
+} */
+
+.apt_text p{
+    color: var(--color1);
+    text-shadow: 0px 4px var(--color4);
+    font-family: var(--font2);
+    padding-bottom: 40px;
+    font-size: 18px;
+}
+.apt_text a{
+    padding: 30px;
+    background-color: var(--color5);
+    color: var(--color1);
+    text-decoration: none;
+    border-radius: 50px;
+    box-shadow: 5px 5px var(--color1);
+}
+.apt_text a:hover{
+    transition: 0.5s;
+    color: var(--color5);
+    background-color: var(--color1);
+    box-shadow: 5px 5px var(--color2);
+}
+
+.apresentation_about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    border-radius: 0% 0% 0px 0px;
+    background-color: var(--color2);
+    background-image: url(../assets/images/Background\ Magenta.png);
+    background-size: cover;
+}
+.apresentation_about_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90%;
+    width: 90%;
+}
+.apresentation_about_img{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.apresentation_about_img img{
+    filter:drop-shadow(8px 8px var(--color5));
+    width: 100%;
+}
+.apresentation_about_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.apresentation_about_text div{
+    background-color: var(--color5);
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+}
+.apresentation_about_text div h2,p{
+    padding: 15px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    color: var(--color2);
+    text-shadow: 2px 2px var(--color3);
+    font-family: var(--font3);
+}
+.apresentation_about_text div h2,a{
+    color: var(--color4);
+}
+.apresentation_stories{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(var(--color2), #000);
+}
+.frame_stories{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    width: 100%;
+}
+.frame{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--color5);
+    border-radius: 20px;
+    height: 90%;
+    width: 90%;
+    overflow: hidden;
+}
+.poster{
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    height: 90%;
+    width: 30%;
+    margin: 0px 10px 0px 10px;
+    border-radius: 20px;
+    background-position: center;
+    background-image: url(../assets/images/bg1.png);
+    border: 1px solid var(--color5);
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+#s1A, #s1B, #s2A{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+#s1A{
+    background-image: url(../assets/images/Season\ 1A\ Poster.png);
+}
+#s1A:hover{
+    background-image: url(../assets/videos/Magenta\ Diamonds\ Origin\ Recap.gif);
+    background-size: contain;
+    background-position: center;
+}
+#s1B{
+    background-image: url(../assets/images/Season\ 1B\ Cover.png);
+}
+#s1B:hover{
+    background-image: url(../assets/videos/background\ season\ 1B.gif);
+}
+#s2A{
+    background-image: url(../assets/images/Season\ 2A.png);
+}
+.poster p{
+    font-family: var(--font2);
+    background-color: var(--color5);
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+.poster:hover{
+    transition: 0.9s;
+    width: 90%;
+}
