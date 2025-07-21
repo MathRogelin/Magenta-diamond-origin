@@ -6,7 +6,10 @@ const img = [
     "../assets/images/alien.png",
     "../assets/images/alien 2.png",
     "../assets/images/alien 3.png",
-    "../assets/images/alien 4.png"
+    "../assets/images/alien 4.png",
+    "../assets/images/bg10.png",
+    "../assets/images/bg11.png",
+    "../assets/images/bg12.png"
 ]
 
 let contador = 0
