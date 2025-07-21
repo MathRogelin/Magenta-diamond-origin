@@ -278,6 +278,9 @@ header nav ul li a:hover{
 #s2A{
     background-image: url(../assets/images/Season\ 2A.png);
 }
+#s2A:hover{
+    background-image: url(../assets/images/bg9.png);
+}
 .poster p{
     font-family: var(--font2);
     background-color: var(--color5);
@@ -289,4 +292,19 @@ header nav ul li a:hover{
 .poster:hover{
     transition: 0.9s;
     width: 90%;
+}
+.apresentation_personage{
+    height: 100vh;
+    background: 
+        linear-gradient(rgba(0, 0, 0), transparent),
+        url("../assets/images/Background\ Magenta.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.apresentation_personage h1{
+    margin: 0px;
+    color: var(--color5);
+    text-shadow: 5px 5px var(--color1);
+    font-size: 25px;
 }
