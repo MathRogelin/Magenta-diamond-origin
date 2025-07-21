@@ -327,6 +327,7 @@ header nav ul li a:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    transition: all 0.5s ease;
 }
 .btns_imgs{
     width: 90%;
@@ -348,4 +349,8 @@ header nav ul li a:hover{
 }
 .btns_imgs button:active{
     background-color: var(--color1);
+}
+.apresentation_universe{
+    height: 100vh;
+    background-color: var(--color2);
 }
