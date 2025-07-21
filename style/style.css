@@ -293,16 +293,18 @@ header nav ul li a:hover{
     transition: 0.9s;
     width: 90%;
 }
-.apresentation_personage{
+.apresentation_spoilers{
     height: 100vh;
     background: 
         linear-gradient(rgba(0, 0, 0), transparent),
-        url("../assets/images/Background\ Magenta.png");
+        url("../assets/images/Background\ Magenta\ 2.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.apresentation_personage h1{
+.apresentation_spoilers h1{
+    text-align: center;
+    padding: 10px;
     margin: 0px;
     color: var(--color5);
     text-shadow: 5px 5px var(--color1);
