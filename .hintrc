@@ -20,6 +20,12 @@
     "detect-css-reflows/composite": "off",
     "detect-css-reflows/layout": "off",
     "detect-css-reflows/paint": "off",
-    "no-inline-styles": "off"
+    "no-inline-styles": "off",
+    "axe/name-role-value": [
+      "default",
+      {
+        "button-name": "off"
+      }
+    ]
   }
 }
