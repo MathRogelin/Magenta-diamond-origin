@@ -362,6 +362,7 @@ header nav ul li a:hover{
     padding: 20px;
     margin: 0px;
     color: var(--color4);
+    text-shadow: 5px 5px var(--color2);
     box-shadow: 0px 5px var(--color3);
 }
 .coverage{
