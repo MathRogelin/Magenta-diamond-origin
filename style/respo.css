@@ -102,4 +102,7 @@
         margin: 10px;
         width: 100%;
     }
+    .grid_apresentation_cards{
+        grid-template-columns: 1fr;
+    }
 }
