@@ -11,6 +11,25 @@
 html{
     scroll-behavior: smooth;
 }
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: var(--color1);
+}
+        
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-color: var(--color3); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--color2); 
+}
+
 body{
     margin: 0px;
     padding: 0px;
@@ -418,4 +437,9 @@ header nav ul li a:hover{
 }
 .text_questionOrAnswers p {
     transition: all 0.5s ease;
+}
+
+.apresentation_network{
+    height: 100vh;
+    background-color: var(--color2);
 }
