@@ -35,6 +35,7 @@ body{
     padding: 0px;
     font-family: var(--font2);
     font-weight: bold;
+    background-color: var(--color2);
     background-size: cover;
     background-attachment: fixed;
     background-position: top;
@@ -71,6 +72,7 @@ header a{
     font-size: 13px;
     color: var(--color3);
     text-decoration: none;
+    font-family: var(--font2);
 }
 header label, input{
     font-size: 20px;
@@ -92,6 +94,7 @@ header nav ul{
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
+    font-family: var(--font3);
 }
 header nav ul li a{
     color: var(--color4);
@@ -175,6 +178,7 @@ header nav ul li a:hover{
     color: var(--color1);
     text-decoration: none;
     border-radius: 50px;
+    font-family: var(--font2);
     box-shadow: 5px 5px var(--color1);
 }
 .apt_text a:hover{
@@ -218,21 +222,27 @@ header nav ul li a:hover{
     justify-content: center;
 }
 .apresentation_about_text div{
-    background-color: var(--color5);
+    background-color: var(--color1);
     width: 90%;
     height: auto;
     border-radius: 20px;
+    border: 1px solid var(--color5);
 }
 .apresentation_about_text div h2,p{
     padding: 15px;
     padding-bottom: 0px;
     padding-top: 0px;
-    color: var(--color2);
-    text-shadow: 2px 2px var(--color3);
+    color: var(--color5);
     font-family: var(--font3);
+    font-weight: 300;
 }
-.apresentation_about_text div h2,a{
+.apresentation_about_text div h2{
     color: var(--color4);
+    font-family: var(--font2);
+}
+.apresentation_about_text div a{
+    color: var(--color4);
+    font-family: var(--font3);
 }
 .apresentation_stories{
     height: 100vh;
@@ -298,7 +308,7 @@ header nav ul li a:hover{
     background-image: url(../assets/images/Season\ 2A.png);
 }
 #s2A:hover{
-    background-image: url(../assets/images/bg9.png);
+    background-image: url(../assets/images/spoiler3.png);
 }
 .poster p{
     font-family: var(--font2);
@@ -315,7 +325,7 @@ header nav ul li a:hover{
 .apresentation_spoilers{
     height: 100vh;
     background: 
-        linear-gradient(rgba(0, 0, 0), transparent),
+        linear-gradient(rgba(0, 0, 0), transparent, var(--color2) 100%),
         url("../assets/images/Background\ Magenta\ 2.png");
     background-size: cover;
     background-position: center;
@@ -371,10 +381,7 @@ header nav ul li a:hover{
 }
 .apresentation_questions{
     height: 100vh;
-    background-image: url(../assets/images/Background\ Magenta.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background: linear-gradient(0deg,#000, var(--color2));
 }
 .apresentation_questions h1{
     text-align: center;
@@ -385,7 +392,7 @@ header nav ul li a:hover{
     box-shadow: 0px 5px var(--color3);
 }
 .coverage{
-    color: var(--color1);
+    color: var(--color3);
 }
 .grid_apresentation_cards{
     display: grid;

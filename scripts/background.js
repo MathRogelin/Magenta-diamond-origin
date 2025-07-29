@@ -1,26 +1,27 @@
-const imagens = [
-  "assets/images/bg13.png",
-  "assets/images/bg14.png"
-];
+window.addEventListener("DOMContentLoaded", () => {
+  const imagens = [
+    "../assets/images/bg13.png",
+    "../assets/images/bg14.png"
+  ];
 
-let index = 0;
+  let index = 0;
 
-// Função que troca o fundo do body
-function trocarFundo() {
-  const proximaImagem = imagens[index];
+  function trocarFundo() {
+    const proximaImagem = imagens[index];
+    const img = new Image();
 
-  // Pré-carrega a imagem antes de aplicar
-  const img = new Image();
-  img.src = proximaImagem;
+    img.onload = () => {
+      document.body.style.backgroundImage = `url('${proximaImagem}')`;
+      index = (index + 1) % imagens.length;
+    };
 
-  img.onload = () => {
-    document.body.style.backgroundImage = `url('${proximaImagem}')`;
-    index = (index + 1) % imagens.length;
-  };
-}
+    img.onerror = () => {
+      console.error(`Erro ao carregar imagem: ${proximaImagem}`);
+    };
 
-// Começa com a primeira imagem
-trocarFundo();
+    img.src = proximaImagem;
+  }
 
-// Troca a cada 6 segundos
-setInterval(trocarFundo, 6000);
+  trocarFundo(); // inicia com a primeira imagem
+  setInterval(trocarFundo, 10000); // troca a cada 6 segundos
+});

@@ -7,9 +7,8 @@ const img = [
     "../assets/images/alien 2.png",
     "../assets/images/alien 3.png",
     "../assets/images/alien 4.png",
-    "../assets/images/bg10.png",
-    "../assets/images/bg11.png",
-    "../assets/images/bg12.png"
+    "../assets/images/spoiler.png",
+    "../assets/images/spoiler2.png"
 ]
 
 let contador = 0
