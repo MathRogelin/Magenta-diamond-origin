@@ -1,12 +1,14 @@
 const imagens = [
-  "assets/images/bg1.png",
-  "assets/images/bg2.png",
-  "assets/images/bg3.png",
-  "assets/images/bg4.png",
-  "assets/images/bg5.png",
-  "assets/images/bg6.png",
-  "assets/images/bg7.png",
-  "assets/images/bg8.png",
+  // "assets/images/bg1.png",
+  // "assets/images/bg2.png",
+  // "assets/images/bg3.png",
+  // "assets/images/bg4.png",
+  // "assets/images/bg5.png",
+  // "assets/images/bg6.png",
+  // "assets/images/bg7.png",
+  // "assets/images/bg8.png",
+  // "assets/images/bg13.png",
+  "assets/images/bg14.png"
 ];
 
 let index = 0;
