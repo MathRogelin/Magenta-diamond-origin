@@ -325,8 +325,7 @@ header nav ul li a:hover{
 .apresentation_spoilers{
     height: 100vh;
     background: 
-        linear-gradient(rgba(0, 0, 0), transparent, var(--color2) 100%),
-        url("../assets/images/Background\ Magenta\ 2.png");
+        linear-gradient(rgba(0, 0, 0) 1%, transparent);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -389,7 +388,7 @@ header nav ul li a:hover{
     margin: 0px;
     color: var(--color4);
     text-shadow: 5px 5px var(--color2);
-    box-shadow: 0px 5px var(--color3);
+    box-shadow: 0px 5px var(--color3), 0px -5px var(--color3);
 }
 .coverage{
     color: var(--color3);
