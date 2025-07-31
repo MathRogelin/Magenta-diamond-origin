@@ -366,17 +366,17 @@ header nav ul li a:hover{
 }
 .btns_imgs button{
     width: 30%;
-    background-color: var(--color2);
+    background-color: #ad0d9a60;
     padding: 15px;
     border-radius: 10px;
     color: var(--color5);
     border: 5px double var(--color1);
 }
 .btns_imgs button:hover{
-    background-color: var(--color3);
+    background-color: #d47edc41;
 }
 .btns_imgs button:active{
-    background-color: var(--color1);
+    background-color: #912b8a94;
 }
 .apresentation_questions{
     height: 100vh;
