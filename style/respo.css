@@ -61,9 +61,16 @@
     }
     header nav ul li{
         text-align: end;
-        padding: 20px 0px 20px 0px;
+        padding: 30px 0px 30px 0px;
         width: 100%;
         border-top: 1px solid var(--color4);
+    }
+    #topLi{
+        border-top: none;
+        padding-top: 15px;
+    }
+    #bottomLi{
+        padding-bottom: 30px;
     }
     header nav ul li a{
         padding: 21px 20px 21px 20px;
