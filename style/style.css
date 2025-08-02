@@ -46,7 +46,6 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid var(--Cor_Font3);
     position: sticky;
     width: 100%;
 }
