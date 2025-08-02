@@ -239,7 +239,8 @@ header nav ul li a:hover{
     font-weight: 300;
 }
 .apresentation_about_text div h2{
-    color: var(--color4);
+    color: var(--color1);
+    text-shadow: 0px 2px var(--color5), 0px -2px var(--color5);
     font-family: var(--font2);
 }
 .apresentation_about_text div a{
@@ -255,7 +256,8 @@ header nav ul li a:hover{
 .apresentation_stories h2{
     margin: 0px;
     padding-top: 30px;
-    color: var(--color5);
+    color: var(--color1);
+    text-shadow: 0px 2px var(--color5), 0px -2px var(--color5);
 }
 .frame_stories{
     display: flex;
