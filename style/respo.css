@@ -112,4 +112,13 @@
     .grid_apresentation_cards{
         grid-template-columns: 1fr;
     }
+    .apresentation_questions{
+        height: 150vh;
+    }
+    .card{
+        height: auto;
+    }
+    .grid_apresentation_cards .questions,.answers{
+        height: auto;
+    }
 }
