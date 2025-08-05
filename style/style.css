@@ -457,33 +457,25 @@ header nav ul li a:hover{
 
 .apresentation_network{
     height: auto;
-    background-color: var(--color2);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    background: linear-gradient(#000, var(--color1));
+    height: 100vh;
 }
 .apresentation_network h1{
-    margin: 0px;
-    padding: 10px;
     text-align: center;
-    color: var(--color5);
+    color: var(--color1);
 }
-.network_flex{
-    border: 1px solid var(--color4);
-    width: 90%;
-    height: auto;
+.align_network{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    height: 90%;
     overflow: auto;
 }
-.instagram-post{
-    margin: 5px;
-    background-color: var(--color3);
-    border-radius: 10px;
-}
-.instagram-post blockquote{
-   width: 100% !important;
-  min-width: auto !important;
-  max-width: 100% !important;
-  border-radius: 8px; /* bordas arredondadas */
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* sombra leve */
+.network_link{
+    border-radius: 50px;
+    border: 1px solid var(--color5);
+    height: 90%;
+    width: 90%;
+    margin: 10px;
 }
