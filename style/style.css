@@ -367,6 +367,7 @@ header nav ul li a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
 }
 .btns_imgs button{
     width: 30%;
