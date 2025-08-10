@@ -468,14 +468,67 @@ header nav ul li a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
     height: 90%;
     overflow: auto;
 }
 .network_link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
     border-radius: 50px;
     border: 1px solid var(--color5);
     height: 90%;
     width: 90%;
     margin: 10px;
+    overflow: auto;
+}
+.backgrond_link{
+    border-radius: 20px;
+    margin: 10px;
+    height: 90%;
+    width: 100%;
+    background-position: center;
+}
+#instagram_link, #tumblr_link, #patreon_link, #x_link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+}
+#instagram_link{
+    background-image: url(../assets/images/Background\ Magenta\ 2.png);
+    background-size: cover;
+    background-position: right;
+}
+#tumblr_link{
+    background-image: url(../assets/images/bg16.png);
+    background-size: cover;
+    background-position: center;
+}
+#patreon_link{
+    background-image: url(../assets/images/bg17.png);
+    background-size: cover;
+    background-position: left;
+}
+#x_link{
+    background-image: url(../assets/images/bg18.png);
+    background-size: cover;
+    background-position: left;
+}
+#instagram_link a{
+    color: var(--color5);
+    text-shadow: 2px 2px var(--color3);
+}
+#tumblr_link a{
+    color: #fee1c6;
+    text-shadow: 5px 5px #463d36;
+}
+#patreon_link a{
+    color: #85d50c;
+    text-shadow: 5px 5px #5e9906;
+}
+#x_link a{
+    color: #fff;
+    text-shadow: 5px 5px #f78f8f;
 }

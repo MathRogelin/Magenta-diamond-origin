@@ -121,4 +121,11 @@
     .grid_apresentation_cards .questions,.answers{
         height: auto;
     }
+    .network_link{
+        flex-direction: column;
+        overflow: hidden !important;
+    }
+    .backgrond_link{
+        width: 90%;
+    }
 }
