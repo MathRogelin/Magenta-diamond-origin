@@ -128,4 +128,11 @@
     .backgrond_link{
         width: 90%;
     }
+    .footer-container{
+        flex-direction: column;
+    }
+    .footer-links, .footer-social, .footer-contact{
+        width: 300px;
+        margin: 0px;
+    }
 }

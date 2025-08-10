@@ -532,3 +532,81 @@ header nav ul li a:hover{
     color: #fff;
     text-shadow: 5px 5px #f78f8f;
 }
+footer{
+    background-color: var(--color2);
+}
+.site-footer{
+    border-top: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.footer-logo{
+    text-align: center;
+    padding: 10px;
+    font-family: var(--font3);
+}
+.footer-logo img{
+    width: 100px;
+}
+.footer-links, .footer-social, .footer-contact{
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: var(--font3);
+    color: var(--color3);
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+    border-bottom: 1px solid var(--color4);
+}
+.footer-links ul{
+    list-style: none;
+}
+.footer-social ul{
+    list-style: none;
+}
+.footer-links h3,a{
+    font-weight: 500;
+}
+.footer-links a{
+    text-decoration: none;
+    color: var(--color4);
+}
+.footer-links a:hover{
+    color: var(--color5);
+    text-shadow: 1px 1px var(--color1);
+    transition: 0.3s;
+}
+.footer-social h3,a{
+    font-weight: 500;
+}
+.footer-social a{
+    text-decoration: none;
+    color: var(--color4);
+}
+.footer-social a:hover{
+    color: var(--color5);
+    text-shadow: 1px 1px var(--color1);
+    transition: 0.3s;
+}
+.footer-contact a{
+    color: var(--color5);
+}
+.footer-bottom{
+    text-align: center;
+}
+.footer-bottom a{
+    color: var(--color5);
+    text-decoration: none;
+    transition: 0.3s;
+}
+.footer-bottom a:hover{
+    text-decoration: underline;
+}
