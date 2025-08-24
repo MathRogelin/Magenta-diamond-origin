@@ -37,33 +37,57 @@ body{
     flex-direction: column;
     margin: 0px;
     padding: 0px;
-    background-image: url(../assets/images/Background\ Magenta.png);
+    background-image: url(../assets/images/bg14.png);
+    background-position: center;
+    background-size: contain;
 }
-.seasonsNavbar{
-    text-align: center;
+.filter{
+    color: var(--color5);
+    margin: 10px 0px 10px 0px;
 }
-.seasonsNavbar input{
-    background-color: #912b8aa1;
-    color: var(--color3);
+.filter fieldset{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     font-family: var(--font2);
-    padding: 20px;
+    background-color: #912b8a57;
     border: 1px solid var(--color3);
-    border-radius: 5px;
-    border-bottom: none;
-    margin-top: 10px;
+    border-radius: 20px;
+    padding: 20px;
 }
-.seasonsNavbar input:hover{
-    color: var(--color1);
-    background-color: #e47edb6d;
+.filter select{
+    background-color: transparent;
+    color: var(--color5);
+    padding: 5px;
+    border: 1px solid var(--color3);
+    border-radius: 10px;
+}
+.filter option{
+    background-color: var(--color1);
+    border: var(--color1);
 }
 .playlist{
     border-radius: 20px 20px 0px 0px;
-    background-color: #912b8aa1;
+    background-color: #912b8a57;
     border: 1px solid var(--color3);
     width: 90%;
     height: 100vh;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------ */
 footer{
     background-color: var(--color2);
     width: 100%;

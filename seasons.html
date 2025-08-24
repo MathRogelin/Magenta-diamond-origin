@@ -17,25 +17,32 @@
 
 </head>
 <body>
-    <section class="seasonsNavbar">
-        <input type="button" value="1A Season">
-        <input type="button" value="1B Season">
-        <input type="button" value="2A Season">
+    <section class="filter">
+        <fieldset>
+            <legend>Filters</legend>
+            <label for="seasons">
+                Season:
+                <select name="seasons" id="seasons">
+                    <option value="0"></option>
+                    <option value="1">1A</option>
+                    <option value="2">1B</option>
+                    <option value="3">2A</option>
+                </select>
+            </label>
+            <label for="channel">
+                Channel:
+                <select name="channel" id="channel">
+                    <option value="0"></option>
+                    <option value="1">Hora Cartoon (Portuguese/dubbed)</option>
+                    <option value="2">Projeto Dublagem (Portuguese/dubbed)</option>
+                    <option value="3">Magenta Diamond AU (English/not dubbed)</option>
+                </select>
+            </label>
+        </fieldset>
     </section>
     <section class="playlist"></section>
     <footer class="site-footer">
         <div class="footer-container">
-            <!-- Coluna 2: Links rápidos -->
-            <div class="footer-links">
-                <h3>Quick links</h3>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#seasons">Season</a></li>
-                    <li><a href="#spoiler">Spoilers</a></li>
-                    <li><a href="#questions">Questions</a></li>
-                    <li><a href="#networks">Networks</a></li>
-                </ul>
-            </div>
 
             <!-- Coluna 3: Redes sociais -->
             <div class="footer-social">

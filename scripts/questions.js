@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // alert("Site em desenvolvimento")
+  alert("Website under development! To watch, click on the posters!")
   const questions = [
     "Por que você publica os capítulos em inglês, em vez de português (BR)?",
     "Você vai lançar episódios engraçados como 'O trauma da Peach', Diego? Ou está focando mais na trama?",
