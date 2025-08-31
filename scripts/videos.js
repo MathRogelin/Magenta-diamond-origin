@@ -89,26 +89,167 @@ const videosHoraCartoon = [
     ]
 ]
 
+const videosProjetoDublagem = [
+    [
+        "https://www.youtube.com/embed/4WJnJVy3WOc?si=pxg0_wsN0spcl4Vh",
+        "https://www.youtube.com/embed/5L9Cn6ps6L8?si=To62SEDF64jucyB9",
+        "https://www.youtube.com/embed/Vx9ox-jI_Us?si=FJ2pScD4zLwwsOhS",
+        "https://www.youtube.com/embed/cwBxp-pZU6w?si=sWwE1U7TW0XCSWyp",
+        "https://www.youtube.com/embed/f5sAGacTFyo?si=ai8lBQXXwBREPMMR",
+        "https://www.youtube.com/embed/Lu6QFH8fGJ0?si=QosiNVP91XWunJbf",
+        "https://www.youtube.com/embed/HSR0VpQA9uU?si=tmFm8cKsCtT9BP3N",
+        "https://www.youtube.com/embed/MQwKhSrNZqQ?si=aYWasGW2wCBgu0pb",
+        "https://www.youtube.com/embed/fLOMFyF2Vso?si=cjxGeYzoPyjweQ7V",
+        "https://www.youtube.com/embed/72w7UtunB5w?si=p7ba_oyiWgXQD4o1",
+        "https://www.youtube.com/embed/GqM4Pm-keKI?si=HJjKtwYjCkOT1_9I",
+        "https://www.youtube.com/embed/UjNyYtt3aW0?si=2mJdtFjDaQsCHc7i",
+        "https://www.youtube.com/embed/44zOhYSdwGg?si=g0rPFLy_BHsmUuuw",
+        "https://www.youtube.com/embed/4iZuElsLsF8?si=ohsjZNkXAG70z__k",
+        "https://www.youtube.com/embed/3bazFSu7z-E?si=3riFU9y1p2_-L03k"
+    ],
+    [
+        "https://www.youtube.com/embed/vR_8vRPOm_E?si=T0lrtyWKWCuJCRuc",
+        "https://www.youtube.com/embed/XWIXdvE5Z-Q?si=CYbS9-nHnV5bXPxE",
+        "https://www.youtube.com/embed/Mbi1RzFQ954?si=Pwjjrph8cHbMbaGq",
+        "https://www.youtube.com/embed/Mfe2tBH-6OA?si=YjZyksrLvGoZpokG",
+        "https://www.youtube.com/embed/mdYI23gzgMo?si=4qLIUxYcXilmtMbb",
+        "https://www.youtube.com/embed/F3tfkF-L6UI?si=DrE-lEqq24msEftm",
+        "https://www.youtube.com/embed/3r1X8sD-me0?si=u_h5ipJ4hPRVzEYI",
+        "https://www.youtube.com/embed/_ob20l8ceqs?si=f3Yp9cOMToKjlykn",
+        "https://www.youtube.com/embed/3cc-5UwBjSU?si=LK-tFrDBlNnHs_iM",
+        "https://www.youtube.com/embed/sIk68RuVr0g?si=98Ml2T2JGDdmic_4",
+        "https://www.youtube.com/embed/GFdvLF1sw6U?si=os8LTxxNKmPA99g9",
+        "https://www.youtube.com/embed/m8OqTQ3XMK8?si=B5EMLJyrhuCVCKcG",
+        "https://www.youtube.com/embed/Ps-QazcvrUk?si=QItLuKBBJVaCU52d",
+        "https://www.youtube.com/embed/9X-vKV8_1GI?si=bRDjTCjCS5i2-3eE",
+        "https://www.youtube.com/embed/aQBjBfWddMw?si=F5joi3X4OGyXG-vu",
+        "https://www.youtube.com/embed/mSEPzS65wMY?si=XUn3XHniRZkBL9LS"
+    ]
+]
 
-const selecao = document.querySelector("select")
+const videosMagentaAU = [
+    [
+        "https://www.youtube.com/embed/UADPMkgRbAY?si=-p15oE9Hl82g1Wj8",
+        "https://www.youtube.com/embed/GbWLIPX5meo?si=-VXFqEJDJaTX2Xfm",
+        "https://www.youtube.com/embed/gvhy_Y7hI1o?si=bLju5cF1CJbpftCj",
+        "https://www.youtube.com/embed/1yX1-SoH91I?si=B0f-UkGYQ75oISNm",
+        "https://www.youtube.com/embed/w_DCYBSKp5Y?si=HC4nnxlQOu8cXzTk",
+        "https://www.youtube.com/embed/TdmL8seh-WA?si=QF11-3-g-MndIkSg",
+        "https://www.youtube.com/embed/T0gTdwgVSYw?si=JnChkRCjnqMilsuP",
+        "https://www.youtube.com/embed/mikzH5PHWGE?si=CGr1Ym7VR3MGJwSk",
+        "https://www.youtube.com/embed/qiV9mUwIHzc?si=kv8ZVfgmb4GspJvw",
+        "https://www.youtube.com/embed/bY3cMjNsFk4?si=Uc-_49xjgzOFKoFE",
+        "https://www.youtube.com/embed/wfgzwLEQAIQ?si=Wv5e5HbUZVumLU2L",
+        "https://www.youtube.com/embed/bl7ybJ340Xs?si=_F4yJO9gWFI3uam_",
+        "https://www.youtube.com/embed/iDfwSQHbfro?si=uTTyEwx0faeNdYJq",
+        "https://www.youtube.com/embed/HzoQSq3jbik?si=-XL7CIJG8qJdqkFl",
+        "https://www.youtube.com/embed/DOrlpINu4Pk?si=Q2jljRqLtrNbonLh",
+        "https://www.youtube.com/embed/yzIdqBtoVJ8?si=3USR_WggHxYn2Nnw",
+        "https://www.youtube.com/embed/_7dyOAQx7Q4?si=XjvqOL7FTSR-3e0U",
+        "https://www.youtube.com/embed/eozsWgbxjag?si=eZhP4Q7BbUPIZQDO"
+    ],
+    [
+        "https://www.youtube.com/embed/8O-MxydF9Hw?si=Bbgk9Pfg4-gIfVGT",
+        "https://www.youtube.com/embed/Qaz245D9aEs?si=OaoAAEgEtohkwQPU",
+        "https://www.youtube.com/embed/LSIe6Bbor1k?si=JyAbvcBUCV6zpUQl",
+        "https://www.youtube.com/embed/7cJVBunpq60?si=PAfxtEBfiRWLYetH",
+        "https://www.youtube.com/embed/ZcsN8Amku-0?si=J8ZELHCWWTEh9qBG",
+        "https://www.youtube.com/embed/shQP01Qkb3g?si=g1mRljjg5Ivjtdiy",
+        "https://www.youtube.com/embed/bow0X-XLvxE?si=Z3kH5UqvWRPbKHyG",
+        "https://www.youtube.com/embed/V8loEqH_NuQ?si=Ia5j4nV66KGoyn1u",
+        "https://www.youtube.com/embed/aM5osr1TWMk?si=a_8hxsOYrpurSWoG",
+        "https://www.youtube.com/embed/GF2wM41bAtk?si=ePTdsRyNs9a75tT_",
+        "https://www.youtube.com/embed/8BohAK-KuK4?si=H7xM90PIk9mfblQC",
+        "https://www.youtube.com/embed/xzvc3AsTiM4?si=xtkMxKb-OmB4zqPm",
+        "https://www.youtube.com/embed/ysphqk_hbd0?si=bV1KwxB9vrs1xwH2",
+        "https://www.youtube.com/embed/yTG9VCh9U84?si=jpfNDW3CDmHshW-6",
+        "https://www.youtube.com/embed/p0DgOtzbBmI?si=RxMWzm4Z12Vi5vRc",
+        "https://www.youtube.com/embed/QhoMztN28t8?si=nphQ8gZfNwp2LQCW",
+        "https://www.youtube.com/embed/FUY-VtS4RRo?si=30k7rRhX4vNAJzWb",
+        "https://www.youtube.com/embed/pwd9PALdiWs?si=3TtBzw5CpqEXtjiP",
+        "https://www.youtube.com/embed/de_LaSpVskQ?si=wXVxeXaEio_rwcOh",
+        "https://www.youtube.com/embed/OQkRi3QR6NI?si=KfqKqGvWlPngwElM"
+    ]
+]
+
+
+const selectSeason = document.getElementById("seasons")
+const selectChannel = document.getElementById("channel")
 const video = document.querySelector("iframe")
 const btnLeft = document.querySelector("#left")
 const btnRight = document.querySelector("#right")
 
 let contador = 0
+let listaAtual = []
 
+function atualizarLista() {
+    console.log("Função atualizarLista() chamada")
+    const seasonIndex = parseInt(selectSeason.value) - 1
+    const canal = selectChannel.value
+
+    console.log("Season index:", seasonIndex, "Canal selecionado:", canal)
+
+    if (canal === "1") {
+        console.log("Carregando vídeos Hora Cartoon")
+        listaAtual = videosHoraCartoon[seasonIndex]
+    } else if (canal === "2") {
+        console.log("Carregando vídeos Projeto Dublagem")
+        listaAtual = videosProjetoDublagem[seasonIndex]
+    } else if (canal === "3") {
+        console.log("Carregando vídeos Magenta Diamond AU")
+        listaAtual = videosMagentaAU[seasonIndex]
+    } else {
+        console.warn("Nenhum canal válido selecionado")
+        listaAtual = []
+    }
+
+    contador = 0
+    if (listaAtual && listaAtual.length > 0) {
+        console.log("Primeiro vídeo carregado:", listaAtual[contador])
+        video.src = listaAtual[contador]
+    } else {
+        console.warn("Lista de vídeos vazia")
+        video.src = ""
+    }
+}
+
+// Navegar para direita
 btnRight.addEventListener("click", () => {
-    contador++;
-    if (contador >= videosHoraCartoon[0].length) { 
-        contador = 0; // volta para o começo
+    console.log("➡️ Botão RIGHT clicado")
+    if (!listaAtual || listaAtual.length === 0) {
+        console.warn("Nenhuma lista de vídeos disponível")
+        return
     }
-    video.src = videosHoraCartoon[0][contador]; 
-});
+    contador++
+    if (contador >= listaAtual.length) contador = 0
+    console.log("Mudando para vídeo:", contador, listaAtual[contador])
+    video.src = listaAtual[contador]
+})
 
+// Navegar para esquerda
 btnLeft.addEventListener("click", () => {
-    contador--;
-    if (contador < 0) {
-       contador = videosHoraCartoon[0].length - 1; // volta para o último
+    console.log("⬅️ Botão LEFT clicado")
+    if (!listaAtual || listaAtual.length === 0) {
+        console.warn("Nenhuma lista de vídeos disponível")
+        return
     }
-    video.src = videosHoraCartoon[0][contador]; 
-});
+    contador--
+    if (contador < 0) contador = listaAtual.length - 1
+    console.log("Mudando para vídeo:", contador, listaAtual[contador])
+    video.src = listaAtual[contador]
+})
+
+// Troca de filtros
+selectSeason.addEventListener("change", () => {
+    console.log("Troca de temporada detectada")
+    atualizarLista()
+})
+
+selectChannel.addEventListener("change", () => {
+    console.log("Troca de canal detectada")
+    atualizarLista()
+})
+
+// Inicializa
+console.log("Inicializando lista de vídeos...")
+atualizarLista()
