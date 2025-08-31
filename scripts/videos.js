@@ -1,3 +1,4 @@
+alert("Updating episodes (only from Hora Cartoon channel)")
 const videosHoraCartoon = [
     [
         "https://www.youtube.com/embed/Y1cxYy9Xk9g?si=kltdKVU099aY_ejd",
