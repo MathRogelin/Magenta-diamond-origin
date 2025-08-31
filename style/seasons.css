@@ -38,8 +38,9 @@ body{
     margin: 0px;
     padding: 0px;
     background-image: url(../assets/images/bg14.png);
-    background-position: center;
-    background-size: contain;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .filter{
     color: var(--color5);
@@ -74,7 +75,36 @@ body{
     height: 100vh;
 }
 
-
+.videos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #e2aad64a;
+    height: 100%;
+}
+.videos iframe{
+    width: 80%;
+    border: 5px solid var(--color4);
+    border-radius: 20px;
+    height: 80%;
+    padding: 10px;
+}
+.btns_videos button{
+    padding: 10px;
+    margin: 5px ;
+    border: 5px double var(--color2);
+    border-radius: 20px;
+    background-color: #ad0d9a60;
+    color: var(--color3);
+    width: 10rem;
+}
+.btns_videos button:hover{
+    background-color: #d47edc41;
+}
+.btns_videos button:active{
+    background-color: #912b8a94;
+}
 
 
 

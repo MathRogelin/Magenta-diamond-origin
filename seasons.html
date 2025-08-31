@@ -24,7 +24,7 @@
                 Season:
                 <select name="seasons" id="seasons">
                     <option value="0"></option>
-                    <option value="1">1A</option>
+                    <option value="1" selected>1A</option>
                     <option value="2">1B</option>
                     <option value="3">2A</option>
                 </select>
@@ -33,14 +33,33 @@
                 Channel:
                 <select name="channel" id="channel">
                     <option value="0"></option>
-                    <option value="1">Hora Cartoon (Portuguese/dubbed)</option>
+                    <option value="1" selected>Hora Cartoon (Portuguese/dubbed)</option>
                     <option value="2">Projeto Dublagem (Portuguese/dubbed)</option>
                     <option value="3">Magenta Diamond AU (English/not dubbed)</option>
                 </select>
             </label>
         </fieldset>
     </section>
-    <section class="playlist"></section>
+    <section class="playlist">
+
+        <div class="videos">
+            <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/Y1cxYy9Xk9g?si=kltdKVU099aY_ejd" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen></iframe>
+            <div class="btns_videos">
+                <button id="left">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <button id="right">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
     <footer class="site-footer">
         <div class="footer-container">
 
@@ -68,5 +87,7 @@
             <p>&copy; 2025 Magenta Diamond's Origin - Developed by <a href="https://github.com/MathRogelin" target="_blank">MathRogelin</a>.</p>
         </div>
     </footer>
+    <script src="scripts/videos.js"></script>
+    <script src="https://kit.fontawesome.com/f0fbc76a81.js" crossorigin="anonymous"></script>
 </body>
 </html>
