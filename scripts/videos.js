@@ -184,7 +184,7 @@ let listaAtual = []
 
 function atualizarLista() {
     console.log("Função atualizarLista() chamada")
-    const seasonIndex = parseInt(selectSeason.value) - 1
+    const seasonIndex = Number(selectSeason.value) - 1
     const canal = selectChannel.value
 
     console.log("Season index:", seasonIndex, "Canal selecionado:", canal)
