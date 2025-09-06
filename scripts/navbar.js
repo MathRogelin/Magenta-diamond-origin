@@ -3,17 +3,17 @@ const navbar = document.querySelector("#navbar")
 const icon = document.querySelector("#menu-icon")
 const linksNav = document.querySelectorAll("header nav ul li a")
 // abrir e fechar navbar
-function navbarEstado(){
-    navbar.addEventListener("change", ()=>{
-        if(navbar.checked){
-            console.log("Open menu...(change class)")
-            icon.classList.replace("fa-bars", "fa-x");
-        }else{
-            console.log("Close menu...(change class)")
-            icon.classList.replace("fa-x", "fa-bars");
-        }
-    })
-}
+// function navbarEstado(){
+//     navbar.addEventListener("change", ()=>{
+//         if(navbar.checked){
+//             console.log("Open menu...(change class)")
+//             icon.classList.replace("fa-bars", "fa-x");
+//         }else{
+//             console.log("Close menu...(change class)")
+//             icon.classList.replace("fa-x", "fa-bars");
+//         }
+//     })
+// }
 
 // ancoras
 function ancoras(){
@@ -47,7 +47,7 @@ function verificarNavbar(){
 }
 
 // chama funções
-navbarEstado()
+// navbarEstado()
 ancoras()
 verificarNavbar()
 
