@@ -45,36 +45,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
 </head>
-<body translate="yes">
+<body translate="no">
     <header>
-        <!-- link com logo -->
         <a href="" id="linkLogo">
             <img src="assets/images/Logo-favicon.png" alt="logo">
         </a>
-        <!-- navbar -->
          
         <input type="checkbox" id="navbar">
         <label for="navbar">
             <i id="menu-icon" class="fa-solid fa-bars"></i>
         </label>
-        <!-- nav -->
         <nav>
-            <ul>
-                <li id="topLi"><a href="#about">About</a></li>
-                <li><a href="#seasons">Season</a></li>
-                <li><a href="#spoiler">Spoilers</a></li>
-                <li><a href="#questions">Questions</a></li>
-                <li id="bottomLi"><a href="#networks">networks</a></li>
-            </ul>
+            <div id="nav">
+                <a href="#home" id="topLi">Home</a>
+                <a href="#about">About</a>
+                <a href="#history">History</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#networks" id="bottomLi">Contact</a>
+            </div>
+            <div id="language">
+                <select name="" id="lang">
+                    <option value="1">PT | BR</option>
+                    <option value="2" selected >EN | EUA</option>
+                </select>
+            </div>
         </nav>
     </header>
 
-    <section class="hero">
+    <!-- <section class="hero">
         <div class="apresentation_title">
             <div class="apt_text">
                 <div>
-                    <!-- <img src="assets/images/logo atual.png" alt="" width="30%"> -->
-                    <h1>Magenta Diamond's Origin</h1>
+                   
+                    <h1>Mageny<br> Planet Color</h1>
                     <p>
                         the diamond of love
                     </p>
@@ -189,7 +192,7 @@
     </section>
     <footer class="site-footer">
         <div class="footer-container">
-            <!-- Coluna 2: Links rápidos -->
+
             <div class="footer-links">
                 <h3>Quick links</h3>
                 <ul>
@@ -201,7 +204,6 @@
                 </ul>
             </div>
 
-            <!-- Coluna 3: Redes sociais -->
             <div class="footer-social">
                 <h3>Follow us</h3>
                 <ul>
@@ -212,7 +214,6 @@
                 </ul>
             </div>
 
-            <!-- Coluna 4: Contato -->
             <div class="footer-contact">
                 <h3>Contact</h3>
                 <p>Email: <a href="mailto:diegosouzalions@gmail.com" rel="noopener noreferrer">diegosouzalions@gmail.com</a></p>
@@ -220,11 +221,11 @@
             </div>
         </div>
 
-        <!-- Direitos autorais -->
+
         <div class="footer-bottom">
             <p>&copy; 2025 Magenta Diamond's Origin - Developed by <a href="https://github.com/MathRogelin" target="_blank">MathRogelin</a>.</p>
         </div>
-    </footer>
+    </footer> -->
 
     <script src="scripts/questions.js"></script>
     <script src="scripts/navbar.js"></script>
