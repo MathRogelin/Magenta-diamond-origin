@@ -8,31 +8,28 @@
     --font3: "Poppins", sans-serif;
 }
 
-@media (max-width: 1195px) {
-    #linkLogo{
-        margin-right: 35%;
-    }
-    .apt_text{
-        width: 100%;
-    }
-}
-
 @media (max-width: 1045px) {
     #linkLogo{
-        margin-right: 25%;
+        margin-right: 5%;
+    }
+    nav{
+        width: 60%;
     }
 }
 
 @media (max-width: 945px) {
     #linkLogo{
-        margin-right: 15%;
+        margin-right: 5%;
+    }
+    nav{
+        width: 50%;
     }
 }
 
-@media (max-width: 845px) {
-    body{
+@media (max-width: 880px) {
+    /* body{
         background-size: 400%;
-    }
+    } */
     header{
         position: relative;
         width: 100%;
@@ -45,36 +42,47 @@
     #linkLogo img{
         width: 100px;
     }
-    header nav{
+    header{
+        display: flex;
+        justify-content: center;
+    }
+    nav{
         display: none;
         position: absolute;
-        width: 90%;
-        top: 110px;
+        width: 95%;
+        top: 121px;
+        backdrop-filter: blur(5px);
+        border-bottom: 1px solid var(--color1);
     }
-    header nav ul{
+    #nav{
         display: flex;
-        flex-direction: column;
-        border-bottom: 1px solid var(--color4);
-        width: 100%;
+        flex-wrap: wrap;
+        border-radius: 0px;
+        width: 99%;
+        height: auto;
         padding: 0px;
-        margin-bottom: 0px;
-    }
-    header nav ul li{
         text-align: end;
-        padding: 30px 0px 30px 0px;
+    }
+    #nav a{
+        margin: 0px;
+        padding: 20px 0px 20px 0px;
         width: 100%;
-        border-top: 1px solid var(--color4);
+        font-weight: bold;
+        text-shadow: 0px 0px 1px #000;
+        color: var(--color4);
+        border-bottom: 1px solid var(--color1);
     }
-    #topLi{
-        border-top: none;
-        padding-top: 15px;
+    #language{
+        display: flex;
+        text-align: center;
+        width: 20%;
+        border-radius: 0px;
+        border: none;
+        background-color: var(--color1);
     }
-    #bottomLi{
-        padding-bottom: 30px;
-    }
-    header nav ul li a{
-        padding: 21px 20px 21px 20px;
-        width: 100%;
+    #language select{
+        color: var(--color5);
+        font-size: 15px;
     }
     header label{
         display: block;
@@ -84,6 +92,7 @@
     input[type = checkbox]:checked ~ nav{
         display: block;
     }
+    /* }
     .apresentation_about{
         overflow: hidden;
         height: auto;
@@ -138,5 +147,5 @@
     .videos iframe{
         width: auto;
         height: auto;
-    }
+    } */
 }
