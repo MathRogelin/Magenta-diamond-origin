@@ -30,21 +30,30 @@ body{
     font-weight: bold;
     background-image: url(../assets/images/bg14.png);
     background-size: cover;
-    background-attachment: fixed;
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
-    transition: background-image 1s ease-in-out;
+    transition: background-image 3s ease-in-out;
+    overflow-x: hidden;
 }
 header{
     display: flex;
     justify-content: center;
     align-items: center;
     position: sticky;
+    top: 0px;
     width: 100%;
+    margin: 0px;
     box-shadow: 0px 2px var(--color1);
+    transition: background-color 1s ease-in-out;
+}
+header.scrolled {
+    background-color: #ad0d9a9a;
 }
 header label, input{
     display: none;
+}
+header label i{
+    color: var(--color5);
 }
 #linkLogo{
     display: flex;
@@ -70,7 +79,7 @@ nav{
     flex-wrap: wrap;
     justify-content: space-around;
     width: 40%;
-    padding: 10px;
+    padding: 0px;
 }
 #nav,#language{
     display: flex;
@@ -93,10 +102,9 @@ nav{
     font-family: var(--font3);
 }
 #nav a:hover{
-    transition: 3s;
+    transition: 0.3s;
     text-decoration: overline;
     color: var(--color2);
-    border-top: 1px solid var(--color2);
 }
 #language{
     width: 10%;
@@ -126,8 +134,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 85vh;
-    border-bottom: 1px solid red;
+    height: 100vh;
 }
 .align_logo{
     display: flex;
@@ -135,7 +142,6 @@ nav{
     justify-content: center;
     height: 90%;
     width: 90%;
-    border: 1px solid red;
 }
 /* header a{
     font-size: 13px;

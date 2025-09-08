@@ -1,19 +1,7 @@
 // selecionar objetos
 const navbar = document.querySelector("#navbar")
-const icon = document.querySelector("#menu-icon")
-const linksNav = document.querySelectorAll("header nav ul li a")
-// abrir e fechar navbar
-// function navbarEstado(){
-//     navbar.addEventListener("change", ()=>{
-//         if(navbar.checked){
-//             console.log("Open menu...(change class)")
-//             icon.classList.replace("fa-bars", "fa-x");
-//         }else{
-//             console.log("Close menu...(change class)")
-//             icon.classList.replace("fa-x", "fa-bars");
-//         }
-//     })
-// }
+const header = document.querySelector("header")
+const linksNav = document.querySelectorAll("#nav a")
 
 // ancoras
 function ancoras(){
@@ -30,25 +18,13 @@ function ancoras(){
     })
 }
 
-function verificarNavbar(){
-    /* Ideia do chat */
-    // fechar navbar se clicar fora
-    document.addEventListener("click", (e) => {
-        // variavel com parâmetro e elementos da navbar, label e header
-        const isClickInsideNavbar = navbar.contains(e.target) || icon.contains(e.target) || e.target.closest("header nav")
-        // se NÃO clicou dentro da navbar e o menu está aberto, então fecha
-        if (!isClickInsideNavbar && navbar.checked) {
-            navbar.checked = false
-            navbar.dispatchEvent(new Event("change"))
-            // debug
-            console.log("Clicou fora da navbar")
-        }
-    })
-}
-
-// chama funções
-// navbarEstado()
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 1) { // passou de 50px
+    header.classList.add("scrolled")
+  } else {
+    header.classList.remove("scrolled")
+  }
+})
 ancoras()
-verificarNavbar()
 
 
