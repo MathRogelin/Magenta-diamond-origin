@@ -1,37 +1,40 @@
+/* raíz com variaveis */
 :root{
+    /* cores */
     --color1:#912b8b;
     --color2:#ad0d9a;
     --color3:#d47edc;
     --color4:#e2aad6;
     --color5:#e4bfdc;
-    --font1: 'Streetscript';
-    --font2: 'Crewniverse', sans-serif;
-    --font3: "Poppins", sans-serif;
+    /* familias de fontes */
+    --font1: 'Streetscript';    /* para textos de apresentação com letra cursiva */
+    --font2: 'Crewniverse', sans-serif;/* para títulos de apresentação */
+    --font3: "Poppins", sans-serif; /* para textos de apresentação */
 }
+/* scroll suave */
 html{
     scroll-behavior: smooth;
 }
+/* estilo do scroll */
 ::-webkit-scrollbar {
-    width: 5px;
+    width: 5px; /* tamanho*/
 }
 
 ::-webkit-scrollbar-track {
-    background-color: var(--color1);
+    background-color: var(--color1);  /* cor de fundo da scroll*/
 }
         
 ::-webkit-scrollbar-thumb {
-    background-color: var(--color3); 
+    background-color: var(--color3); /* cor da scroll */
 }
 
+/* corpo do html */
 body{
     margin: 0px;
     padding: 0px;
     font-family: var(--font2);
     font-weight: bold;
-    background-image: url(../assets/images/planet\ colony.png);
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
+    background: url("../assets/images/planet-colony.png") no-repeat top / cover;
     overflow-x: hidden;
 }
 header{
