@@ -29,7 +29,7 @@ body{
     font-family: var(--font2);
     font-weight: bold;
     background-image: url(../assets/images/bg14.png);
-    background-size: contain;
+    background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
     overflow-x: hidden;
@@ -143,8 +143,9 @@ nav{
     width: 90%;
 }
 .ABOUT{
-    background: #912b8a81  url(../assets/images/Color\ Planet\ 1.png);
+    background: var(--color1)  url(../assets/images/Color\ Planet\ 1.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-position: left;
+    background-size: 70%;
     height: 100vh;
 }
