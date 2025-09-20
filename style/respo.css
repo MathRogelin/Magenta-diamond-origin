@@ -58,7 +58,7 @@
         background-color: #ad0d9a9f;
         border-bottom: 1px solid var(--color5);
     }
-    #nav{
+    #navLinks{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -68,7 +68,7 @@
         margin: 0px;
         text-align: end;
     }
-    #nav a{
+    #navLinks a{
         margin: 0px;
         padding: 20px 20px 20px 0px;
         width: 100%;
@@ -76,11 +76,11 @@
         color: var(--color5);
         border-bottom: 1px solid var(--color5);
     }
-    #nav a:hover{
+    #navLinks a:hover{
         text-decoration: none;
         background-color: #ad0d9a4d;
     }
-    #language{
+    #navLanguage{
         display: flex;
         justify-content: end;
         text-align: end;
@@ -89,7 +89,7 @@
         border: none;
         background-color: transparent;
     }
-    #language select{
+    #navLanguage select{
         color: var(--color5);
         font-size: 15px;
         width: auto;

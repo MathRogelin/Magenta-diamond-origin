@@ -1,7 +1,7 @@
 // selecionar objetos
 const navbar = document.querySelector("#navbar")
 const header = document.querySelector("header")
-const linksNav = document.querySelectorAll("#nav a")
+const linksNav = document.querySelectorAll("#navLinks a")
 
 // ancoras
 function ancoras(){

@@ -80,7 +80,7 @@ nav{
     width: 40%;
     padding: 0px;
 }
-#nav,#language{
+#navLinks,#navLanguage{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -88,11 +88,11 @@ nav{
     padding: 15px;
     border-radius: 50px;
 }
-#nav{
+#navLinks{
     font-size: 15px;
     width: 55%;
 }
-#nav a{
+#navLinks a{
     color: var(--color5);
     text-decoration: none;
     margin: 0px 10px 0px 10px;
@@ -100,17 +100,17 @@ nav{
     font-weight: 400;
     font-family: var(--font3);
 }
-#nav a:hover{
+#navLinks a:hover{
     transition: 0.3s;
     text-decoration: overline;
     color: var(--color2);
 }
-#language{
+#navLanguage{
     width: 10%;
     border-radius: 50px;
     border: 3px solid var(--color1);
 }
-#language select{
+#navLanguage select{
     font-size: smaller;
     font-weight: 350;
     font-size: 14px;
@@ -125,7 +125,7 @@ nav{
     appearance: none;    /* Firefox */
     outline: none;
 }
-#language select option{
+#navLanguage select option{
     border: 2px solid var(--color1);
     background-color: transparent;
 }
