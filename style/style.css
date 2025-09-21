@@ -1,4 +1,3 @@
-/* raíz com variaveis */
 @font-face {
     font-family: 'Gem Glyph SU v1';
     src: url('../assets/Fonts/GemGlyphSUv1regular.woff2') format('woff2'),
@@ -7,7 +6,7 @@
     font-style: normal;
     font-display: swap;
 }
-
+/* raíz com variaveis */
 :root{
     /* cores */
     --color1:#912b8b;
@@ -43,9 +42,8 @@ html{
 body{
     margin: 0px;
     padding: 0px;
-    font-family: var(--font2);
     font-weight: bold;
-    background: url("../assets/images/background-magenta-2.png") no-repeat top / auto;
+    background: url("../assets/images/planet-colony.png") no-repeat top / auto;
     overflow-x: hidden;
 }
 header{
@@ -56,7 +54,6 @@ header{
     top: 0px;
     width: 100%;
     margin: 0px;
-    box-shadow: 0px 2px var(--color4);
     transition: background-color 1s ease-in-out;
 }
 header.scrolled {
@@ -111,7 +108,7 @@ nav{
     text-decoration: none;
     margin: 0px 10px 0px 10px;
     font-weight: 400;
-    font-family: 'Gem Glyph SU v1', sans-serif;
+    font-family: var(--font4);
 }
 #navLinks a:hover{
     transition: 0.3s;
@@ -128,9 +125,9 @@ nav{
     font-weight: 350;
     font-size: 14px;
     text-align: center;
-    font-family: var(--font3);
+    /* font-family: var(--font4); */
     background-color: transparent;
-    color: var(--color5);
+    color: var(--color3);
     border: none;
     width: 100%;
     -moz-appearance: none;         /* Padrão */
@@ -143,7 +140,7 @@ nav{
     background-color: transparent;
 }
 #navLanguage select option:nth-child(3){
-    font-family: var(--font4);
+    font-family: var(--font4) !important;
 }
 .hero{
     display: flex;
