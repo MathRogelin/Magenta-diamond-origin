@@ -18,7 +18,8 @@
     --font1: 'Streetscript';    /* para textos de apresentação com letra cursiva */
     --font2: 'Crewniverse', sans-serif;/* para títulos de apresentação */
     --font3: "Poppins", sans-serif; /* para textos de apresentação */
-    --font4: 'Gem Glyph SU v1';
+    --font4: 'Gem Glyph SU v1'; /* font Gem*/
+    --font5: "Orbitron", sans-serif; /* font futurista*/
 }
 
 /* scroll suave */
@@ -108,7 +109,7 @@ nav{
     text-decoration: none;
     margin: 0px 10px 0px 10px;
     font-weight: 400;
-    font-family: var(--font4);
+    font-family: var(--font5);
 }
 #navLinks a:hover{
     transition: 0.3s;
@@ -121,9 +122,10 @@ nav{
     border: 3px solid var(--color4);
 }
 #navLanguage select{
+    font-family: var(--font5);
     font-size: smaller;
     font-weight: 350;
-    font-size: 14px;
+    font-size: 10px;
     text-align: center;
     /* font-family: var(--font4); */
     background-color: transparent;
@@ -148,17 +150,57 @@ nav{
     justify-content: center;
     height: 100vh;
 }
-.align_logo{
+#hero{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 90%;
-    width: 90%;
+    height: 80vh;
 }
-.ABOUT{
-    background: var(--color1)  url(../assets/images/Color\ Planet\ 1.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: 70%;
-    height: 100vh;
+#title_hero{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #912b8a6d;
+    -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    backdrop-filter: blur(2px);
+    width: 30%;
+    height: 90%;
+    overflow: hidden;
+}
+#title_hero h1{
+    font-size: 42px;
+    padding: 10px;
+    padding-bottom: 0px;
+    color: var(--color5);
+    font-family: var(--font5);
+    text-shadow: 2px 5px var(--color3)
+}
+#title_hero a{
+    color: var(--color5);
+    text-shadow: 0px 2px var(--color1);
+    text-decoration: none;
+    font-family: var(--font5);
+    font-size: 30px;
+    font-weight: lighter;
+    animation: glowShadow 1s ease-in-out infinite alternate;
+}
+@keyframes glowShadow {
+    0% {
+        text-shadow: 0 2px var(--color1);
+    }
+    100% {
+        text-shadow: 0 8px 1px var(--color1);
+    }
+}
+
+.diamonds{
+    background-color: #912b8a6d;
+    -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    backdrop-filter: blur(2px);
+    font-size: 30px;
+    color: #e4bfdc00;
 }

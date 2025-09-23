@@ -8,34 +8,37 @@
     --font3: "Poppins", sans-serif;
 }
 
-@media (max-width: 1045px) {
+@media (max-width: 1245px) {
     #linkLogo{
         margin-right: 5%;
     }
     nav{
         width: 60%;
     }
-}
-
-@media (max-width: 945px) {
-    #linkLogo{
-        margin-right: 5%;
-    }
-    nav{
+    #title_hero{
         width: 50%;
     }
 }
 
-@media (max-width: 880px) {
-    /* body{
-        background-size: 400%;
-    } */
+@media (max-width: 950px) {
+    #linkLogo{
+        margin-right: 5%;
+    }
+    nav{
+        width: 70%;
+    }
+    #title_hero{
+        width: 70%;
+    }
+}
+
+@media (max-width: 790px) {
     header{
         position: relative;
         width: 100%;
         border: none;
         position: relative;
-        background-color: #ad0d9a9a;
+        backdrop-filter: blur(50px);
     }
     #linkLogo{
         margin-right: 60%;
@@ -55,7 +58,7 @@
         width: 100%;
         top: 121px;
         height: auto;
-        background-color: #ad0d9a9f;
+        background-color: #ad0d9a;
         border-bottom: 1px solid var(--color5);
     }
     #navLinks{
@@ -103,4 +106,20 @@
     input[type = checkbox]:checked ~ nav{
         display: block;
     }
+
+    /* hero */
+
+    #title_hero{
+        z-index: -1;
+        width: 90%;
+    }
+    #title_hero h1{
+        font-size: 30px;
+    }
+    .diamonds{
+        display: none;
+    }
+}
+@media (max-width: 650px) {
+
 }
