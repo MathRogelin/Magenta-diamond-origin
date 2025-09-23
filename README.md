@@ -39,7 +39,7 @@
     <li><a href="https://www.instagram.com/diegosouzalions/" style="color: #fff; text-decoration: underline;">Instagram</a></li>
     <li><a href="https://www.tumblr.com/magenta-diamonds-origin-blog" style="color: #fff; text-decoration: underline;">Tumblr</a></li>
     <li><a href="https://www.patreon.com/diegosouzalions?fbclid=PAZXh0bgNhZW0CMTEAAafBu0jY5C63o668-DN0o2fRkR_f4ZzQ_eosnh-wN60QrlIYxnYPodSGSvevWg_aem_MX4fWXI-iUgv2_TLhLKN7A" style="color: #fff; text-decoration: underline;">Patreon</a></li>
-    <li><a href="https://magentadiamondorigin.netlify.app/" style="color: #fff; text-decoration: underline;">Site (em desenvolvimento)</a></li>
+    <li><a href="https://magentadiamondoriginofficial.netlify.app/" style="color: #fff; text-decoration: underline;">Site (em desenvolvimento)</a></li>
   </ul>
 
   <p style="margin-top: 60px; text-align: center; font-size: 1.2rem; font-weight: bold;">
