@@ -61,7 +61,7 @@
         background-color: #ad0d9a;
         border-bottom: 1px solid var(--color5);
     }
-    #navLinks{
+    .navLinks{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -71,7 +71,7 @@
         margin: 0px;
         text-align: end;
     }
-    #navLinks a{
+    .navLinks a{
         margin: 0px;
         padding: 20px 20px 20px 0px;
         width: 100%;
@@ -79,11 +79,11 @@
         color: var(--color5);
         border-bottom: 1px solid var(--color5);
     }
-    #navLinks a:hover{
+    .navLinks a:hover{
         text-decoration: none;
         background-color: #ad0d9a4d;
     }
-    #navLanguage{
+    .navLanguage{
         display: flex;
         justify-content: end;
         text-align: end;
@@ -92,7 +92,7 @@
         border: none;
         background-color: transparent;
     }
-    #navLanguage select{
+    .navLanguage select{
         color: var(--color5);
         font-size: 15px;
         width: auto;
@@ -119,7 +119,4 @@
     .diamonds{
         display: none;
     }
-}
-@media (max-width: 650px) {
-
 }
