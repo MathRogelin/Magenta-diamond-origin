@@ -119,4 +119,12 @@
     .diamonds{
         display: none;
     }
+
+    /* about */
+    
+    #about{
+        height: auto;
+        direction: column-reverse;
+        grid-template-columns: 1fr;
+    }
 }
