@@ -222,7 +222,6 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #fff;
 }
 #about_text{
     font-family: var(--font5);
