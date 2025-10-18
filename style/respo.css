@@ -130,4 +130,13 @@
     #about_text{
         margin: 20px 0px 20px 0px;
     }
+
+    /* history */
+    .history_AU{
+        height: auto;
+        background-color: #000;
+    }
+    .grid_history{
+        grid-template-columns: 1fr;
+    }
 }

@@ -229,10 +229,10 @@ nav{
     font-size: auto;
     padding: 10px;
     font-family: var(--font5);
-    color: var(--color1);
+    color: var(--color2);
     border-radius: 20px;
     background-color: var(--color5);
-    border: 3px solid var(--color1);
+    border: 3px solid var(--color3);
     width: 90%;
 }
 #about_text h1,p{
@@ -261,22 +261,36 @@ nav{
 }
 
 .history_AU{
-    height: 100vh;
+    height: auto;
     background-color: var(--color2);
     text-align: center;
+    border-bottom: 3px solid var(--color3);
 }
 .history_AU h1{
-    padding: 10px;
+    padding: 20px;
     margin: 0px;
     border-bottom:  3px solid var(--color3);
     font-family: var(--font5);
     background-color: var(--color5);
     color: var(--color2);
 }
+.grid_history{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.grid_history div{
+    height: auto;
+    width: auto;
+}
+#history_img img{
+    width: 100%;
+    height: 100%;
+}
 #history_text{
     font-size: 20px;
     font-family: var(--font5);
-    color: var(--color2);
-    background-color: var(--color5);
+    color: var(--color5);
+    background-color: var(--color2);
     padding: 10px;
+    text-align: left;
 }
