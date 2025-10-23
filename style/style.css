@@ -43,6 +43,7 @@ html{
 body{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
     font-weight: bold;
     background: url("../assets/images/planet-colony.png") no-repeat top / auto;
     overflow-x: hidden;
@@ -129,7 +130,6 @@ nav{
     font-weight: 350;
     font-size: 15px;
     text-align: center;
-    /* font-family: var(--font4); */
     background-color: transparent;
     color: var(--color4);
     border: none;
@@ -293,4 +293,43 @@ nav{
     background-color: var(--color2);
     padding: 10px;
     text-align: left;
+}
+.gallery_AU{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--color2);
+    background-image: url(../assets/images/background-magenta-3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.gallery_AU h1{
+    border-bottom: 3px solid var(--color3);
+    font-family: var(--font5);
+    color: var(--color5);
+    padding: 20px;
+    text-align: center;
+    margin-top: 0px;
+    background-color: var(--color2);
+    width: 100%;
+}
+.grid_img{
+    width: 95%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    align-items: center;
+    overflow: hidden;
+}
+.item_img{
+    margin: 0px auto;
+    border-radius: 5px;
+    width: 100%;
+}
+.item_img:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
 }

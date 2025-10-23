@@ -139,4 +139,11 @@
     .grid_history{
         grid-template-columns: 1fr;
     }
+
+    /* gallery */
+
+    .grid_img{
+        grid-template-columns:  repeat(1, 1fr);
+        overflow: scroll;
+    }
 }
