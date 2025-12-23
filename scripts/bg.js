@@ -16,4 +16,4 @@ let index = 0
 setInterval(() => {
         bg.src = `${frames[index]}`
         index = (index + 1) % frames.length
-}, 5000);
+}, 5000)
