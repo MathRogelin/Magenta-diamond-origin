@@ -22,6 +22,57 @@
     --font5: "Orbitron", sans-serif; /* font futurista*/
 }
 
+/* notificação do site, para atulizaçoes... */
+.notification{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1010;
+    width: 100vw;
+    height: 100vh;
+    background-color: #912b8aa0;
+
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.message{
+    margin-top: 30px;
+    border-radius: 50px 0px 50px 0px;
+    background-color: var(--color2);
+    border: 2px solid var(--color5);
+    width: 95%;
+    height: 90%;
+    overflow: hidden;
+}
+.message fieldset{
+    width: 95%;
+    font-size: 20px;
+    margin-top: 60px;
+    margin-left: 10px;
+    padding: 10px;
+    color: var(--color5);
+    font-family: var(--font5);
+    border: 1px solid var(--color5);
+    border-radius: 20px;
+}
+.message fieldset legend{
+    color: var(--color4);
+}
+.message #btn_X{
+    width: 50px;
+    position: fixed;
+    left: 85%;
+    top: 4%;
+    z-index: 1011;
+    color: var(--color2);
+    background-color: var(--color5);
+    border: 2px solid var(--color5);
+    padding: 5px;
+    border-radius: 0px 0px 20px 20px;
+    font-size: 20px;
+}
+
 /* scroll suave */
 html{
     scroll-behavior: smooth;
