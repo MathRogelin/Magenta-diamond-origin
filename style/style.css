@@ -313,7 +313,6 @@ nav{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1px solid red;
     height: 88%;
     width: 100%;
 }
@@ -321,7 +320,6 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid red;
     height: 100%;
     overflow: hidden;
 }
