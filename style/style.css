@@ -111,7 +111,7 @@ header{
     transition: background-color 1s ease-in-out;
 }
 header.scrolled {
-    background-color: #ad0d9abd;
+    background-color: var(--color2);
 }
 header label, input{
     display: none;
