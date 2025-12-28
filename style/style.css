@@ -22,6 +22,10 @@
     --font5: "Orbitron", sans-serif; /* font futurista*/
 }
 
+*::selection{
+    color: var(--color1);
+    background-color: var(--color4);
+}
 /* notificação do site, para atulizaçoes... */
 .notification{
     position: fixed;
@@ -111,7 +115,7 @@ header{
     transition: background-color 1s ease-in-out;
 }
 header.scrolled {
-    background-color: var(--color2);
+    background-color: var(--color1);
 }
 header label, input{
     display: none;
@@ -315,7 +319,6 @@ nav{
     height: auto;
     background-color: var(--color2);
     text-align: center;
-    border-bottom: 3px solid var(--color1);
 }
 .history_AU h1{
     padding: 20px;
@@ -341,51 +344,51 @@ nav{
     font-size: 20px;
     font-family: var(--font5);
     color: var(--color5);
-    background-color: var(--color2);
+    background-color: var(--color1);
     padding: 10px;
     text-align: left;
 }
-.gallery_AU{
+.seasons_AU{
     display: block;
     background-color: var(--color1);
+    background-image: url(../assets/images/background-magenta.png);
     height: 100vh;
 }
-.gallery_AU h1{
+.seasons_AU h1{
     margin: 0px;
     text-align: left;
     font-family: var(--font5);
     background-color: var(--color2);
-    border-bottom:  3px solid var(--color1);
+    border-top:  3px solid var(--color5);
+    border-bottom:  3px solid var(--color5);
     color: var(--color5);
     padding: 20px;
 }
-.flex_gallery{
-    background-image: url(../assets/images/planet-colony.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 88%;
-    width: 100%;
-}
+
 .arrows{
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: 100%;
+    height: 85%;
+}
+.btnArrow{
+    padding: 15px;
+    border-radius: 10px;
+    margin: 0px 5px 0px 5px;
+    border: none;
+}
+.bg_seasons{
+    width: 100%;
+    height: 90%;
+    border-radius: 20px;
+    border: 5px solid var(--color4);
     overflow: hidden;
 }
-#arrow_left{
-    transform: rotate(90deg);
-    margin-right: 85%;
+.card_seasons{
+    border: 2px solid red;
+    margin: 10px;
+    border-radius: 20px;
 }
-#arrow_right{
-    transform: rotate(-90deg);
-}
-#arrow_left button, #arrow_right button{
-    font-size: 20px;
-    border-radius: 50px;
-    background-color: var(--color2);
-    border: 1px solid var(--color5);
-    color: var(--color5);
-    padding: 15px;
+.card_seasons img{
+    background-color: var(--color5);
+    width: 50%;
 }
