@@ -371,24 +371,41 @@ nav{
     height: 85%;
 }
 .btnArrow{
+    font-size: 20px;
+    color: var(--color1);
+    background-color: var(--color5);
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 0px 10px 0px 10px;
     margin: 0px 5px 0px 5px;
     border: none;
 }
 .bg_seasons{
     width: 100%;
     height: 90%;
-    border-radius: 20px;
+    border-radius: 30px 0px 30px 0px;
     border: 5px solid var(--color4);
     overflow: hidden;
 }
 .card_seasons{
-    border: 2px solid red;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    overflow: hidden;
+    border: 5px solid var(--color1);
     margin: 10px;
     border-radius: 20px;
+    height: 95%;
 }
-.card_seasons img{
+#bg_img img{
+    text-align: center;
     background-color: var(--color5);
-    width: 50%;
+    width: 100%;
+}
+#bg_text{
+    background-color: var(--color1);
+}
+#bg_text h1{
+    border: none;
+
 }

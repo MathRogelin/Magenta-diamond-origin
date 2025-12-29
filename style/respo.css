@@ -140,10 +140,9 @@
         grid-template-columns: 1fr;
     }
 
-    /* gallery */
+    /* seasons */
 
-    .grid_img{
+    .card_seasons{
         grid-template-columns:  repeat(1, 1fr);
-        overflow: scroll;
     }
 }
